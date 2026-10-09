@@ -22,7 +22,7 @@
 
 I started SNISHOP in Bengkulu in 2018, while I was still in high school. I began as a digital reseller; working inside that business showed me the operational problems worth solving. Over time, I built products around those needs, from commerce and payments to ERP and POS for small businesses.
 
-I work across the product lifecycle: understanding the business, shaping the system, building and debugging it, then supporting it in production. AI tools are part of how I work faster, but I stay responsible for the architecture, trade-offs, and what ships. My work spans full-stack product engineering, AI-assisted SaaS, business automation, and software for Indonesian businesses.
+I work across the product lifecycle: understanding the business, shaping the system, building and debugging it, then supporting it in production. AI tools are part of how I work faster, but I stay responsible for the architecture, trade-offs, and what ships. My work spans full-stack product engineering, AI-assisted SaaS, business automation, and software for Indonesian businesses. In 2023, Universitas Bengkulu selected our SNISHOP team for [KMI Expo XIV](https://www.unib.ac.id/unib-kirim-2-tim-di-ajang-kmi-expo-xiv-di-bali/), Indonesia's national student entrepreneurship expo.
 
 ---
 
@@ -46,18 +46,19 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last refreshed: **2026-10-09**. The daily workflow refreshes public statistics and private repository count when PROFILE_TOKEN is configured._
+_Last refreshed: **2026-10-09**. Public data is verified; private count is checked manually until the read-only PROFILE_TOKEN secret is available._
 
 | Signal | Current value |
 |:---|:---:|
+| Total owned repositories | **83** (checked via GitHub on 2026-10-09) |
 | Public repositories | **19** |
 | Active public repositories | **19** |
 | Public stars | **Updated automatically by GitHub Actions** |
-| Private repositories | **Awaiting read-only PROFILE_TOKEN secret** |
+| Private repositories | **64** (checked via GitHub on 2026-10-09; automatic refresh pending PROFILE_TOKEN) |
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
 
-> Private repository metadata is used only to calculate the count. Private names, descriptions, URLs, client data, and implementation details are never published.
+> Private repository names, descriptions, URLs, client data, and implementation details are never published. Automatic refresh of the private count requires the read-only PROFILE_TOKEN Actions secret.
 <!-- AUTO-GITHUB-END -->
 
 ---
