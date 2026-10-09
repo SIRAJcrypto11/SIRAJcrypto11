@@ -56,6 +56,22 @@ const siraj: Developer = {
 
 ---
 
+<!-- COLLABORATION SIGNAL -->
+## 🤝 Engineering & Collaboration
+
+I build practical business software: ERP systems, commerce platforms, AI-agent workflows, dashboards, and automation tools that help teams operate faster.
+
+| Area | What I bring |
+|:---|:---|
+| **Product Engineering** | Turning business problems into shipped full-stack products with auth, roles, dashboards, data models, and workflows. |
+| **AI + Automation** | Designing AI agents, workflow builders, task automation, and integrations for real business operations. |
+| **Business Systems** | ERP, POS, inventory, finance, HR, invoices, reseller/referral flows, wallets, and admin operations. |
+| **Collaboration Style** | Fast iteration, clear product thinking, founder-level ownership, and willingness to work across design, code, and business. |
+
+**Open to collaborate on:** AI agents, SaaS products, ERP/POS systems, developer tools, Indonesian business automation, and practical full-stack products with real users.
+
+---
+
 <!-- STATS SNAKE -->
 <div align="center">
 
