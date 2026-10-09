@@ -1,34 +1,21 @@
-<!-- HEADER BANNER -->
+<!-- PROFILE HEADER -->
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Siraj%20Nur%20Ihrom&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Founder%20%26%20CTO%20%7C%20Product%20Engineer%20%7C%20AI%20%26%20ERP%20Systems%20Builder&descAlignY=58&descSize=18)
+<img src="https://github.com/SIRAJcrypto11.png" width="140" alt="Siraj Nur Ihrom GitHub profile photo">
+
+# Siraj Nur Ihrom
+
+**Founder & CTO · Product Engineer · AI and Business Systems**
+
+[![GitHub followers](https://img.shields.io/github/followers/SIRAJcrypto11?label=Followers&style=flat&logo=github)](https://github.com/SIRAJcrypto11)
+[![GitHub stars](https://img.shields.io/github/stars/SIRAJcrypto11?style=flat&logo=github)](https://github.com/SIRAJcrypto11)
 
 </div>
-
-<!-- TYPING ANIMATION -->
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=850&height=50&lines=%F0%9F%9A%80+Founder+%26+CTO+%40+PT+Snishop+Network+Indonesia;%F0%9F%8F%97%EF%B8%8F+Building+ERP%2C+POS%2C+Commerce+%26+Business+Automation;%F0%9F%A4%96+AI+Agents+%7C+Workflow+Automation+%7C+Internal+Tools;%F0%9F%8C%8F+Full-Stack+Dev+%7C+Next.js+%C2%B7+TypeScript+%C2%B7+PostgreSQL;%F0%9F%94%A5+Shipping+real+products%2C+not+just+demos)](https://github.com/SIRAJcrypto11)
-
-</div>
-
-<!-- BADGES -->
-<div align="center">
-
-[![GitHub followers](https://img.shields.io/github/followers/SIRAJcrypto11?label=Followers&style=for-the-badge&logo=github&color=0891b2&labelColor=1c1917)](https://github.com/SIRAJcrypto11)
-[![Profile Views](https://komarev.com/ghpvc/?username=SIRAJcrypto11&color=0891b2&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/SIRAJcrypto11)
-[![GitHub Stars](https://img.shields.io/github/stars/SIRAJcrypto11?style=for-the-badge&logo=github&color=0891b2&labelColor=1c1917)](https://github.com/SIRAJcrypto11)
-
-</div>
-
-<br/>
 
 ---
 
 <!-- ABOUT ME -->
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> About Me
-
-<img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
 ```typescript
 const siraj: ProductEngineer = {
@@ -79,39 +66,23 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last refreshed: **2026-10-09** by the profile updater setup._
+_Last refreshed: pending first successful workflow run._
 
 | Signal | Current value |
 |:---|:---:|
-| Total repositories tracked | **83** |
-| Active repositories | **83** |
-| Public repositories | **19** |
-| Private/client-safe repositories | **64** |
-| AI / agent / automation repos | **15+** |
-| ERP / commerce / business-system repos | **25+** |
-| Profile updater | **GitHub Actions + redacted README auto block** |
-| Agent skill system | **Active private/internal AI agent skills system** |
+| Public repositories | **pending** |
+| Active public repositories | **pending** |
+| Public stars | **pending** |
+| AI / agent / automation repositories | **pending** |
+| ERP / commerce / business-system repositories | **pending** |
 
-> Private/client work is counted and summarized safely. Private repository names, customer data, credentials, and business-sensitive implementation details are intentionally not exposed.
+> This snapshot uses public GitHub data only. Private repositories, names, counts, client data, and implementation details are excluded.
 
 ### Current Engineering Direction
 
-- Building and refining **AI agent skills** for app generation, product architecture, UI/UX, ERP/POS, dashboards, role access, payments, and anti-generic output.
-- Developing practical product systems around **SNISHOP**, ERP, commerce, AI automation, workflow tools, and private client operations.
-- Keeping profile information professional, current, and client-safe while still showing real engineering scope.
-
-### Agent Skill System
-
-A private/internal AI agent skills system is active. It includes a flagship product-app skill for turning Siraj's app prompts into complete, professional product builds instead of generic AI output. Public profile summaries describe the capability without exposing private repository details.
-
-### Recently Visible Public Directions
-
-| Direction | Public-safe summary |
-|:---|:---|
-| **AI agents & automation** | Agent skills, AI workflow builders, orchestration, automation dashboards |
-| **Business systems** | ERP, POS, marketplace, restaurant, supply-chain and operations tools |
-| **Commerce & brands** | E-commerce, product catalogs, brand sites, client-safe business platforms |
-| **Utilities & SaaS ideas** | File conversion, invoice automation, UMKM tools, productivity products |
+- Building and refining **AI agent skills** for app generation, product architecture, UI/UX, ERP/POS, dashboards, role access, payments, and production readiness.
+- Developing practical products around **SNISHOP**, ERP, commerce, AI automation, workflow tools, and client operations.
+- Keeping public profile information current while protecting private and client work.
 <!-- AUTO-GITHUB-END -->
 
 ---
@@ -146,18 +117,10 @@ A private/internal AI agent skills system is active. It includes a flagship prod
 
 ---
 
-<!-- STATS SNAKE -->
-<div align="center">
+<!-- CONTRIBUTIONS -->
+## 📈 GitHub Contributions
 
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-</picture>
-
-</div>
+[View contribution activity on GitHub](https://github.com/SIRAJcrypto11)
 
 ---
 
@@ -244,39 +207,7 @@ A private/internal AI agent skills system is active. It includes a flagship prod
 <!-- GITHUB STATS -->
 ## 📊 GitHub Statistics
 
-<div align="center">
-
-<a href="https://github.com/SIRAJcrypto11">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SIRAJcrypto11&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SIRAJcrypto11&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true"/>
-</a>
-
-</div>
-
-<div align="center">
-
-<a href="https://github.com/SIRAJcrypto11">
-  <img width="70%" src="https://streak-stats.demolab.com?user=SIRAJcrypto11&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly"/>
-</a>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=SIRAJcrypto11&theme=tokyonight&no-frame=true&no-bg=false&column=7&margin-w=6&margin-h=6" />
-
-</div>
-
----
-
-<!-- ACTIVITY GRAPH -->
-## 📈 Contribution Activity
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SIRAJcrypto11&theme=tokyo-night&hide_border=true&area=true&area_color=58A6FF)](https://github.com/SIRAJcrypto11)
-
-</div>
+The live snapshot above is generated daily from GitHub's public repository API. It reports public repository count, active public repositories, stars, and public project categories. Private repositories are excluded from the updater and are not disclosed.
 
 ---
 
