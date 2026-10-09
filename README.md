@@ -7,6 +7,8 @@
 
 **Founder & CTO · Product Engineer · AI and Business Systems**
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=850&height=50&lines=Founder+%26+CTO+%40+PT+Snishop+Network+Indonesia;Building+ERP%2C+POS%2C+Commerce+%26+Automation;AI+Agents+%7C+Workflow+Automation+%7C+Internal+Tools;Full-Stack+Product+Engineer)](https://github.com/SIRAJcrypto11)
+
 [![GitHub followers](https://img.shields.io/github/followers/SIRAJcrypto11?label=Followers&style=flat&logo=github)](https://github.com/SIRAJcrypto11)
 [![GitHub stars](https://img.shields.io/github/stars/SIRAJcrypto11?style=flat&logo=github)](https://github.com/SIRAJcrypto11)
 
@@ -66,23 +68,18 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last refreshed: **2026-10-09**. This snapshot is generated from public GitHub repository data._
+_Last refreshed: **2026-10-09**. The daily workflow refreshes public statistics and private repository count when PROFILE_TOKEN is configured._
 
 | Signal | Current value |
 |:---|:---:|
 | Public repositories | **19** |
 | Active public repositories | **19** |
 | Public stars | **Updated automatically by GitHub Actions** |
+| Private repositories | **Awaiting read-only PROFILE_TOKEN secret** |
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
 
-> This snapshot uses public GitHub data only. Private repositories, names, counts, client data, and implementation details are excluded.
-
-### Current Engineering Direction
-
-- Building and refining **AI agent skills** for app generation, product architecture, UI/UX, ERP/POS, dashboards, role access, payments, and production readiness.
-- Developing practical products around **SNISHOP**, ERP, commerce, AI automation, workflow tools, and client operations.
-- Keeping public profile information current while protecting private and client work.
+> Private repository metadata is used only to calculate the count. Private names, descriptions, URLs, client data, and implementation details are never published.
 <!-- AUTO-GITHUB-END -->
 
 ---
@@ -120,7 +117,13 @@ _Last refreshed: **2026-10-09**. This snapshot is generated from public GitHub r
 <!-- CONTRIBUTIONS -->
 ## 📈 GitHub Contributions
 
-[View contribution activity on GitHub](https://github.com/SIRAJcrypto11)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SIRAJcrypto11/SIRAJcrypto11/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SIRAJcrypto11/SIRAJcrypto11/output/github-contribution-grid-snake.svg">
+  <img alt="Animated GitHub contribution graph" src="https://raw.githubusercontent.com/SIRAJcrypto11/SIRAJcrypto11/output/github-contribution-grid-snake.svg">
+</picture>
+
+[View full contribution activity](https://github.com/SIRAJcrypto11)
 
 ---
 
@@ -207,7 +210,20 @@ _Last refreshed: **2026-10-09**. This snapshot is generated from public GitHub r
 <!-- GITHUB STATS -->
 ## 📊 GitHub Statistics
 
-The live snapshot above is generated daily from GitHub's public repository API. It reports public repository count, active public repositories, stars, and public project categories. Private repositories are excluded from the updater and are not disclosed.
+<div align="center">
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=SIRAJcrypto11&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github)](https://github.com/SIRAJcrypto11)
+[![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SIRAJcrypto11&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/SIRAJcrypto11)
+
+[![GitHub streak](https://streak-stats.demolab.com?user=SIRAJcrypto11&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://github.com/SIRAJcrypto11)
+
+[![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=SIRAJcrypto11&theme=tokyo-night&hide_border=true&area=true)](https://github.com/SIRAJcrypto11)
+
+[![GitHub trophies](https://github-profile-trophy.vercel.app/?username=SIRAJcrypto11&theme=tokyonight&no-frame=true&column=7&margin-w=6&margin-h=6)](https://github.com/SIRAJcrypto11)
+
+</div>
+
+_These cards are served by community-hosted services. The live snapshot above remains the reliable text fallback._
 
 ---
 
