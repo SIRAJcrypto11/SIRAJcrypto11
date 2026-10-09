@@ -14,20 +14,21 @@ jobs:
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Refresh README snapshot
+      - name: Refresh public-only README snapshot
         env:
           GITHUB_OWNER: SIRAJcrypto11
-          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
         run: node scripts/update-profile-readme.mjs
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: refresh profile README snapshot'
+          commit_message: 'chore: refresh public profile snapshot'
           file_pattern: README.md
