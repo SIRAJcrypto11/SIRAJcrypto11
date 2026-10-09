@@ -1,0 +1,33 @@
+name: Update profile README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh README snapshot
+        env:
+          GITHUB_OWNER: SIRAJcrypto11
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: node scripts/update-profile-readme.mjs
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: refresh profile README snapshot'
+          file_pattern: README.md
