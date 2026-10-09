@@ -76,12 +76,13 @@ function buildStatsSvg(repos, privateCache, contributionCache) {
     ['TOTAL REPOS', privateCount === undefined ? String(publicRepos.length) + '+' : String(publicRepos.length + privateCount), 'owned repositories'],
     ['PUBLIC REPOS', String(publicRepos.length), String(activePublic.length) + ' active'],
     ['PRIVATE REPOS', privateCount === undefined ? 'Pending' : String(privateCount), privateRepos ? 'count only' : (privateCache ? 'last checked ' + privateCache.date : 'read-only token needed')],
+    ['PUBLIC STARS', String(stars), 'across public repositories'],
     ['CONTRIBUTIONS', contributions === undefined ? 'Open profile' : contributions.toLocaleString('en-US'), contributionCache ? 'last 12 months · ' + contributionCache.date : 'GitHub contribution calendar'],
   ];
   const cards = metrics.map((metric, index) => {
-    const x = 28 + index * 244;
+    const x = 28 + index * 198;
     return '<g transform="translate(' + x + ',0)">' +
-      '<rect x="0" y="0" width="226" height="116" rx="8" fill="#111827" stroke="#30363d"/>' +
+      '<rect x="0" y="0" width="184" height="116" rx="8" fill="#111827" stroke="#30363d"/>' +
       '<rect x="0" y="0" width="4" height="116" rx="2" fill="' + ['#2dd4bf', '#60a5fa', '#fb923c', '#f472b6', '#a3e635'][index] + '"/>' +
       '<text x="18" y="26" fill="#9ca3af" font-size="12" font-family="Arial, sans-serif" font-weight="700">' + metric[0] + '</text>' +
       '<text x="18" y="66" fill="#f3f4f6" font-size="28" font-family="Arial, sans-serif" font-weight="700">' + metric[1] + '</text>' +
