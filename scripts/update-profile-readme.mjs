@@ -92,8 +92,8 @@ function buildStatsSvg(repos, privateCache, contributionCache) {
   const privateNote = privateRepos
     ? 'Private repository names and details are never included.'
     : privateCache
-      ? 'Private count last verified ' + privateCache.date + '; automatic refresh needs PROFILE_TOKEN.'
-      : 'Private count appears after adding the read-only PROFILE_TOKEN secret.';
+      ? 'Private count verified ' + privateCache.date + '; daily profile maintenance refreshes the aggregate.'
+      : 'Private count is shown only as an aggregate; project details remain hidden.';
   return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 190" role="img" aria-labelledby="title desc" data-contributions="' + (contributions ?? '') + '" data-contribution-date="' + (contributions === undefined ? '' : date) + '">' +
     '<title id="title">Siraj Nur Ihrom GitHub statistics</title>' +
     '<desc id="desc">Public GitHub profile statistics with private repository names omitted.</desc>' +
@@ -119,14 +119,14 @@ function buildBlock(repos, privateCache) {
   const privateRows = privateCount === undefined
     ? '| Private repositories | Awaiting read-only PROFILE_TOKEN secret |'
     : privateDate
-      ? `| Private repositories | **${privateCount}** (checked via GitHub on ${privateDate}; automatic refresh pending PROFILE_TOKEN) |`
-      : `| Private repositories | **${privateCount}** |`;
-  const totalRows = privateCount === undefined ? '' : '| Total owned repositories | **' + (publicRepos.length + privateCount) + '** |' + (privateDate ? ' (private count checked ' + privateDate + ')' : '') + '\n';
+      ? '| Private repositories | **' + privateCount + '** (checked via GitHub on ' + privateDate + '; refreshed by daily profile maintenance) |'
+      : '| Private repositories | **' + privateCount + '** |';
+  const totalRows = privateCount === undefined
     ? ''
-    : `| Total owned repositories | **${publicRepos.length + privateCount}** |${privateDate ? ' (private count checked ' + privateDate + ')' : ''}\\n`;
+    : '| Total owned repositories | **' + (publicRepos.length + privateCount) + '** |' + (privateDate ? ' (private count checked ' + privateDate + ')' : '') + String.fromCharCode(10);
   const privacyNote = privateCount === undefined
-    ? 'Public statistics are current. Private repository count will appear after the owner adds the read-only PROFILE_TOKEN Actions secret. Private names and descriptions are never published.'
-    : 'Private repository names, descriptions, URLs, client data, and implementation details are never published.';
+    ? 'Private repository count is unavailable until a read-only GitHub account connection is available. Private names and descriptions are never published.'
+    : 'Private repository names, descriptions, URLs, client data, and implementation details are never published. Daily profile maintenance refreshes the aggregate count.';
   return `<!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
