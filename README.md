@@ -66,15 +66,15 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last refreshed: pending first successful workflow run._
+_Last refreshed: **2026-10-09**. This snapshot is generated from public GitHub repository data._
 
 | Signal | Current value |
 |:---|:---:|
-| Public repositories | **pending** |
-| Active public repositories | **pending** |
-| Public stars | **pending** |
-| AI / agent / automation repositories | **pending** |
-| ERP / commerce / business-system repositories | **pending** |
+| Public repositories | **19** |
+| Active public repositories | **19** |
+| Public stars | **0** |
+| AI / agent / automation repositories | **2** |
+| ERP / commerce / business-system repositories | **2** |
 
 > This snapshot uses public GitHub data only. Private repositories, names, counts, client data, and implementation details are excluded.
 
