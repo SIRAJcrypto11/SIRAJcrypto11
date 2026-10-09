@@ -31,7 +31,7 @@ async function paginate(path) {
 async function fetchRepos() {
   const repos = token
     ? await paginate('/user/repos?visibility=all&affiliation=owner&sort=updated')
-    : await paginate(`/users/${encodeURIComponent(OWNER)}/repos?type=public&sort=updated`);
+    : await paginate(`/users/${encodeURIComponent(OWNER)}/repos?type=owner&sort=updated`);
   return repos.filter((repo) => repo.owner?.login?.toLowerCase() === OWNER.toLowerCase());
 }
 
@@ -41,12 +41,12 @@ function includesAny(value, terms) {
 }
 
 function readCachedPrivateCount(readme) {
-  const match = readme.match(/\\| Private repositories \\| \\*\\*(\\d+)\\*\\* \\(checked via GitHub on (\\d{4}-\\d{2}-\\d{2})/);
+  const match = readme.match(/\| Private repositories \| \*\*(\d+)\*\* \(checked via GitHub on (\d{4}-\d{2}-\d{2})/);
   return match ? { count: Number(match[1]), date: match[2] } : null;
 }
 
 function readCachedContributionCount(svg) {
-  const match = svg.match(/data-contributions="(\\d+)" data-contribution-date="(\\d{4}-\\d{2}-\\d{2})"/);
+  const match = svg.match(/data-contributions="(\d+)" data-contribution-date="(\d{4}-\d{2}-\d{2})"/);
   return match ? { count: Number(match[1]), date: match[2] } : null;
 }
 
@@ -57,7 +57,7 @@ async function fetchContributionCount() {
     });
     if (!response.ok) return null;
     const html = await response.text();
-    const match = html.match(/([\\d,]+) contributions in the last year/i);
+    const match = html.match(/([\d,]+) contributions in the last year/i);
     return match ? Number(match[1].replaceAll(',', '')) : null;
   } catch {
     return null;
@@ -76,13 +76,12 @@ function buildStatsSvg(repos, privateCache, contributionCache) {
     ['TOTAL REPOS', privateCount === undefined ? String(publicRepos.length) + '+' : String(publicRepos.length + privateCount), 'owned repositories'],
     ['PUBLIC REPOS', String(publicRepos.length), String(activePublic.length) + ' active'],
     ['PRIVATE REPOS', privateCount === undefined ? 'Pending' : String(privateCount), privateRepos ? 'count only' : (privateCache ? 'last checked ' + privateCache.date : 'read-only token needed')],
-    ['PUBLIC STARS', String(stars), 'across public repositories'],
     ['CONTRIBUTIONS', contributions === undefined ? 'Open profile' : contributions.toLocaleString('en-US'), contributionCache ? 'last 12 months · ' + contributionCache.date : 'GitHub contribution calendar'],
   ];
   const cards = metrics.map((metric, index) => {
-    const x = 28 + index * 198;
+    const x = 28 + index * 244;
     return '<g transform="translate(' + x + ',0)">' +
-      '<rect x="0" y="0" width="184" height="116" rx="8" fill="#111827" stroke="#30363d"/>' +
+      '<rect x="0" y="0" width="226" height="116" rx="8" fill="#111827" stroke="#30363d"/>' +
       '<rect x="0" y="0" width="4" height="116" rx="2" fill="' + ['#2dd4bf', '#60a5fa', '#fb923c', '#f472b6', '#a3e635'][index] + '"/>' +
       '<text x="18" y="26" fill="#9ca3af" font-size="12" font-family="Arial, sans-serif" font-weight="700">' + metric[0] + '</text>' +
       '<text x="18" y="66" fill="#f3f4f6" font-size="28" font-family="Arial, sans-serif" font-weight="700">' + metric[1] + '</text>' +
@@ -121,7 +120,7 @@ function buildBlock(repos, privateCache) {
     : privateDate
       ? `| Private repositories | **${privateCount}** (checked via GitHub on ${privateDate}; automatic refresh pending PROFILE_TOKEN) |`
       : `| Private repositories | **${privateCount}** |`;
-  const totalRows = privateCount === undefined
+  const totalRows = privateCount === undefined ? '' : '| Total owned repositories | **' + (publicRepos.length + privateCount) + '** |' + (privateDate ? ' (private count checked ' + privateDate + ')' : '') + '\n';
     ? ''
     : `| Total owned repositories | **${publicRepos.length + privateCount}** |${privateDate ? ' (private count checked ' + privateDate + ')' : ''}\\n`;
   const privacyNote = privateCount === undefined
