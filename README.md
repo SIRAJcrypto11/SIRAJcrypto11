@@ -46,14 +46,14 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last refreshed: **2026-10-09**. Public data is verified; private count is checked manually until the read-only PROFILE_TOKEN secret is available._
+_Last refreshed: **2026-10-09**. Counts checked via GitHub; daily profile maintenance refreshes the snapshot._
 
 | Signal | Current value |
 |:---|:---:|
 | Total owned repositories | **83** (checked via GitHub on 2026-10-09) |
 | Public repositories | **19** |
 | Active public repositories | **19** |
-| Public stars | **Updated automatically by GitHub Actions** |
+| Public stars | **4** (checked via GitHub on 2026-10-09) |
 | Private repositories | **64** (checked via GitHub on 2026-10-09; automatic refresh pending PROFILE_TOKEN) |
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
@@ -191,7 +191,7 @@ GitHub's native contribution calendar is available on the [profile activity page
 
 </div>
 
-The animated snapshot is hosted in this repository, so it does not depend on third-party statistics-card servers. Its values are also shown in the text snapshot above.
+The stats card is hosted in this repository instead of relying on third-party card servers. Daily profile maintenance refreshes its values.
 
 ---
 
