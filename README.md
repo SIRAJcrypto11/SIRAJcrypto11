@@ -72,7 +72,7 @@ _Last refreshed: **2026-10-09**. This snapshot is generated from public GitHub r
 |:---|:---:|
 | Public repositories | **19** |
 | Active public repositories | **19** |
-| Public stars | **0** |
+| Public stars | **Updated automatically by GitHub Actions** |
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
 
