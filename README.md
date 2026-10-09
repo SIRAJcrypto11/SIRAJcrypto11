@@ -96,13 +96,7 @@ _Last refreshed: **2026-10-09**. Public data is verified; private count is check
 <!-- CONTRIBUTIONS -->
 ## 📈 GitHub Contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SIRAJcrypto11/SIRAJcrypto11/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SIRAJcrypto11/SIRAJcrypto11/output/github-contribution-grid-snake.svg">
-  <img alt="Animated GitHub contribution graph" src="https://raw.githubusercontent.com/SIRAJcrypto11/SIRAJcrypto11/output/github-contribution-grid-snake.svg">
-</picture>
-
-[View full contribution activity](https://github.com/SIRAJcrypto11)
+GitHub's native contribution calendar is available on the [profile activity page](https://github.com/SIRAJcrypto11#contribution-activity).
 
 ---
 
@@ -191,18 +185,13 @@ _Last refreshed: **2026-10-09**. Public data is verified; private count is check
 
 <div align="center">
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=SIRAJcrypto11&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github)](https://github.com/SIRAJcrypto11)
-[![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SIRAJcrypto11&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)](https://github.com/SIRAJcrypto11)
-
-[![GitHub streak](https://streak-stats.demolab.com?user=SIRAJcrypto11&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://github.com/SIRAJcrypto11)
-
-[![Contribution activity](https://github-readme-activity-graph.vercel.app/graph?username=SIRAJcrypto11&theme=tokyo-night&hide_border=true&area=true)](https://github.com/SIRAJcrypto11)
-
-[![GitHub trophies](https://github-profile-trophy.vercel.app/?username=SIRAJcrypto11&theme=tokyonight&no-frame=true&column=7&margin-w=6&margin-h=6)](https://github.com/SIRAJcrypto11)
+<a href="https://github.com/SIRAJcrypto11">
+  <img src="https://raw.githubusercontent.com/SIRAJcrypto11/SIRAJcrypto11/main/assets/github-stats.svg" alt="Siraj Nur Ihrom GitHub statistics snapshot" width="100%">
+</a>
 
 </div>
 
-_These cards are served by community-hosted services. The live snapshot above remains the reliable text fallback._
+The animated snapshot is hosted in this repository, so it does not depend on third-party statistics-card servers. Its values are also shown in the text snapshot above.
 
 ---
 
