@@ -58,7 +58,7 @@ async function fetchContributionCount() {
     if (!response.ok) return null;
     const html = await response.text();
     const match = html.match(/([\d,]+) contributions in the last year/i);
-    return match ? Number(match[1].replaceAll(',', '')) : null;
+    return match ? { count: Number(match[1].replaceAll(',', '')), date: new Date().toISOString().slice(0, 10) } : null;
   } catch {
     return null;
   }
