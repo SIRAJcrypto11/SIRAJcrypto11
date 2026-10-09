@@ -1,14 +1,14 @@
 <!-- HEADER BANNER -->
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Siraj%20Nur%20Ihrom&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Founder%20%26%20CTO%20%7C%20Full-Stack%20Developer%20%7C%20AI%20Builder&descAlignY=58&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Siraj%20Nur%20Ihrom&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Founder%20%26%20CTO%20%7C%20Product%20Engineer%20%7C%20AI%20%26%20ERP%20Systems%20Builder&descAlignY=58&descSize=18)
 
 </div>
 
 <!-- TYPING ANIMATION -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=700&height=50&lines=%F0%9F%9A%80+Founder+%26+CTO+%40+PT+Snishop+Network+Indonesia;%F0%9F%A4%96+Building+AI+Agents+%7C+OtomaAI+%26+Agentik;%F0%9F%8F%97%EF%B8%8F+ERP+Architect+%7C+121%2B+Active+Business+Users;%F0%9F%8C%8F+Full-Stack+Dev+%7C+Next.js+%C2%B7+TypeScript+%C2%B7+Node.js;%F0%9F%94%A5+Always+Learning%2C+Always+Shipping+Code)](https://github.com/SIRAJcrypto11)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=850&height=50&lines=%F0%9F%9A%80+Founder+%26+CTO+%40+PT+Snishop+Network+Indonesia;%F0%9F%8F%97%EF%B8%8F+Building+ERP%2C+POS%2C+Commerce+%26+Business+Automation;%F0%9F%A4%96+AI+Agents+%7C+Workflow+Automation+%7C+Internal+Tools;%F0%9F%8C%8F+Full-Stack+Dev+%7C+Next.js+%C2%B7+TypeScript+%C2%B7+PostgreSQL;%F0%9F%94%A5+Shipping+real+products%2C+not+just+demos)](https://github.com/SIRAJcrypto11)
 
 </div>
 
@@ -28,27 +28,30 @@
 <!-- ABOUT ME -->
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> About Me
 
-<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+<img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
 ```typescript
-const siraj: Developer = {
+const siraj: ProductEngineer = {
   name:       "Siraj Nur Ihrom",
-  role:       "Founder & CTO",
+  role:       "Founder, CTO, Full-Stack Product Engineer",
   company:    "PT Snishop Network Indonesia",
   location:   "Bengkulu, Indonesia 🇮🇩",
   website:    "https://snishop.com",
 
-  currentFocus: [
-    "🏗️  ERP System Scaling (121+ users)",
-    "🤖  AI Agent Frameworks (OtomaAI)",
-    "⚡  SaaS Product Development",
-    "📱  Business Automation Tools",
+  builds: [
+    "ERP, POS, inventory, finance, HR and business operation systems",
+    "E-commerce, reseller, wallet, referral and payment workflows",
+    "AI agents, automation dashboards and internal productivity tools",
+    "Client-facing and private business systems with production constraints",
   ],
 
-  techPhilosophy: "Ship fast. Learn faster. Build forever.",
-  funFact: "Built Snishop during high school 🏫🚀",
+  preferredStack: [
+    "Next.js", "React", "TypeScript", "Node.js", "PostgreSQL",
+    "Tailwind CSS", "Prisma/Drizzle", "Supabase", "AI SDKs",
+  ],
 
-  openTo: ["Collaboration", "B2B Partnerships", "Freelance Projects"],
+  productStyle: "Practical, operational, role-aware, and built for real users.",
+  openTo: ["Engineering collaboration", "B2B systems", "AI automation", "ERP/POS products"],
 };
 ```
 
@@ -59,16 +62,47 @@ const siraj: Developer = {
 <!-- COLLABORATION SIGNAL -->
 ## 🤝 Engineering & Collaboration
 
-I build practical business software: ERP systems, commerce platforms, AI-agent workflows, dashboards, and automation tools that help teams operate faster.
+I build practical business software: ERP systems, commerce platforms, AI-agent workflows, dashboards, and automation tools that help teams operate faster. Some of my work is public, and some client/internal systems stay private by design. I summarize private work by domain and architecture so the value is visible without exposing client data.
 
 | Area | What I bring |
 |:---|:---|
 | **Product Engineering** | Turning business problems into shipped full-stack products with auth, roles, dashboards, data models, and workflows. |
 | **AI + Automation** | Designing AI agents, workflow builders, task automation, and integrations for real business operations. |
 | **Business Systems** | ERP, POS, inventory, finance, HR, invoices, reseller/referral flows, wallets, and admin operations. |
+| **Technical Ownership** | I can move from product scope to UI, database, API, deployment, operations, and iteration. |
 | **Collaboration Style** | Fast iteration, clear product thinking, founder-level ownership, and willingness to work across design, code, and business. |
 
 **Open to collaborate on:** AI agents, SaaS products, ERP/POS systems, developer tools, Indonesian business automation, and practical full-stack products with real users.
+
+---
+
+<!-- WORK PORTFOLIO -->
+## 🧩 Selected Work, Public & Private
+
+| Type | Scope | What I handled | Visibility |
+|:---|:---|:---|:---:|
+| **SNISHOP ERP** | ERP modules, users, operations, inventory, finance, HR, POS | Product architecture, full-stack implementation, dashboards, business workflows | Public product |
+| **SNISHOP Commerce** | E-commerce, reseller, wallet, payments, orders, customer/admin dashboards | Commerce flows, role-aware dashboards, payment and wallet thinking | Public product |
+| **Client Business Systems** | ERP/POS/inventory/invoice workflows for real operational needs | Private dashboards, CRUD flows, reporting, role access, deployment support | Private/client-safe |
+| **Client Automation Tools** | Internal dashboards, workflow automation, document/content tools | Requirements mapping, UI, backend logic, integrations, admin workflows | Private/client-safe |
+| **AI Agent Products** | OtomaAI, Agentik, workflow builders, task automation | Agent flows, prompt/system design, provider integration, run states | Building/public-private |
+| **Education & Utility Apps** | Language learning, plagiarism checking, file conversion, business utilities | Full-stack app delivery, product iteration, landing pages, admin features | Mixed |
+
+> Private/client work is intentionally described without confidential names, data, repositories, or business-sensitive implementation details.
+
+---
+
+<!-- HOW I BUILD -->
+## 🛠️ How I Build Products
+
+| Layer | Standard I care about |
+|:---|:---|
+| **Product** | Clear user, problem, promise, workflow, business model, and success metric. |
+| **Frontend** | Responsive UI, role-specific dashboards, usable forms, tables, states, and clean navigation. |
+| **Backend** | Auth, permissions, validation, server-side business logic, secure API boundaries. |
+| **Database** | Practical schemas, lifecycle states, audit logs, indexes, seed/demo data, and migration awareness. |
+| **Business Logic** | Payments, wallets, orders, invoices, inventory movements, approvals, refunds, and reconciliation where needed. |
+| **Operations** | Admin panels, provider health, retry queues, logs, reports, setup docs, and deploy readiness. |
 
 ---
 
@@ -94,15 +128,14 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 
 | 🚀 Product | 📝 Description | 🛠️ Stack | 📊 Status | 🔗 Link |
 |:---:|:---|:---:|:---:|:---:|
-| **Snishop ERP** | Enterprise Resource Planning — inventory, finance, HR, POS | Next.js · Node.js · SQL · Prisma | ✅ **LIVE** · 121+ users | [→ Visit](https://snishop.online) |
-| **Snishop** | E-commerce & multi-vendor business platform | Next.js · TypeScript · PostgreSQL | ✅ **LIVE** | [→ Visit](https://snishop.com) |
-| **Belangua** | Language learning & education platform | Next.js · TypeScript · AI | ✅ **LIVE** | [→ Visit](https://belangua.com) |
-| **Jamu Kito** | International herbal brand & e-commerce | Next.js · TypeScript | ✅ **LIVE** | [→ Visit](https://jamukitointernasional.com) |
-| **OtomaAI** | AI Agent automation & orchestration framework | TypeScript · LLM APIs · Agents | 🔧 Building | Soon |
+| **Snishop ERP** | ERP for business operations: inventory, finance, HR, POS and reporting | Next.js · Node.js · SQL · Prisma | ✅ **LIVE** · active users | [→ Visit](https://snishop.online) |
+| **Snishop** | E-commerce and business platform for products, orders and digital operations | Next.js · TypeScript · PostgreSQL | ✅ **LIVE** | [→ Visit](https://snishop.com) |
+| **Belangua** | Language learning and education platform | Next.js · TypeScript · AI | ✅ **LIVE** | [→ Visit](https://belangua.com) |
+| **Jamu Kito** | International herbal brand and e-commerce presence | Next.js · TypeScript | ✅ **LIVE** | [→ Visit](https://jamukitointernasional.com) |
+| **OtomaAI** | AI agent automation and orchestration framework | TypeScript · LLM APIs · Agents | 🔧 Building | Soon |
 | **Agentik** | Drag-and-drop AI workflow builder | TypeScript · Next.js · AI | 🔧 Building | Soon |
 | **Converthub** | Multi-format online file conversion tools | TypeScript · Next.js | 🔧 Building | Soon |
-| **ERPCampus** | Campus management & academic ERP system | Next.js · Node.js · SQL | 🔧 Building | Soon |
-| **ERPSchool** | School administration & learning management | Next.js · TypeScript | 🔧 Building | Soon |
+| **Private Client Systems** | ERP, POS, dashboard, automation and internal tools for client operations | Full-stack · Database · Auth · Admin | 🔒 Private | Client-safe summary |
 
 </div>
 
@@ -214,12 +247,12 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 
 | Metric | Value |
 |:---|:---:|
-| 🏢 ERP Active Users | **121+** |
-| 📦 Total Repositories | **47+** (public + private) |
-| 🌐 Live Products | **4** |
-| 🔧 Products in Development | **5** |
-| 📅 Years Building | **5+** |
-| 🤝 Companies Served | **PT Snishop Network Indonesia** |
+| 🏢 Business/ERP Systems | **Public + private/client-safe work** |
+| 🌐 Live Products | **Multiple public products** |
+| 🔒 Private Client Projects | **Summarized safely by domain and scope** |
+| 🤖 AI/Automation Products | **OtomaAI, Agentik and workflow tooling** |
+| 🛠️ Main Strength | **Full-stack product delivery from idea to operations** |
+| 🤝 Collaboration Areas | **AI agents, ERP/POS, SaaS, automation, dashboards** |
 
 </div>
 
