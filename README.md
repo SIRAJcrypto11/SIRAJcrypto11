@@ -5,10 +5,11 @@
 
 # Siraj Nur Ihrom
 
-**Founder & CTO · Product Engineer · AI and Business Systems**
+**Founder-Engineer · AI-First ERP, POS & SMB Software**
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=850&height=50&lines=Founder+%26+CTO+%40+PT+Snishop+Network+Indonesia;Building+ERP%2C+POS%2C+Commerce+%26+Automation;AI+Agents+%7C+Workflow+Automation+%7C+Internal+Tools;Full-Stack+Product+Engineer)](https://github.com/SIRAJcrypto11)
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://id.linkedin.com/in/sirajnurihrom)
 [![GitHub followers](https://img.shields.io/github/followers/SIRAJcrypto11?label=Followers&style=flat&logo=github)](https://github.com/SIRAJcrypto11)
 [![GitHub stars](https://img.shields.io/github/stars/SIRAJcrypto11?style=flat&logo=github)](https://github.com/SIRAJcrypto11)
 
@@ -19,32 +20,9 @@
 <!-- ABOUT ME -->
 ## About Me
 
-```typescript
-const siraj: ProductEngineer = {
-  name:       "Siraj Nur Ihrom",
-  role:       "Founder, CTO, Full-Stack Product Engineer",
-  company:    "PT Snishop Network Indonesia",
-  location:   "Bengkulu, Indonesia 🇮🇩",
-  website:    "https://snishop.com",
+I started SNISHOP in Bengkulu in 2018, while I was still in high school. I began as a digital reseller; working inside that business showed me the operational problems worth solving. Over time, I built products around those needs, from commerce and payments to ERP and POS for small businesses.
 
-  builds: [
-    "ERP, POS, inventory, finance, HR and business operation systems",
-    "E-commerce, reseller, wallet, referral and payment workflows",
-    "AI agents, automation dashboards and internal productivity tools",
-    "Client-facing and private business systems with production constraints",
-  ],
-
-  preferredStack: [
-    "Next.js", "React", "TypeScript", "Node.js", "PostgreSQL",
-    "Tailwind CSS", "Prisma/Drizzle", "Supabase", "AI SDKs",
-  ],
-
-  productStyle: "Practical, operational, role-aware, and built for real users.",
-  openTo: ["Engineering collaboration", "B2B systems", "AI automation", "ERP/POS products"],
-};
-```
-
-<br clear="right"/>
+I work across the product lifecycle: understanding the business, shaping the system, building and debugging it, then supporting it in production. AI tools are part of how I work faster, but I stay responsible for the architecture, trade-offs, and what ships. My work spans full-stack product engineering, AI-assisted SaaS, business automation, and software for Indonesian businesses.
 
 ---
 
