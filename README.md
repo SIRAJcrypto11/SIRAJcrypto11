@@ -54,11 +54,11 @@ _Last refreshed: **2026-10-09**. Counts checked via GitHub; daily profile mainte
 | Public repositories | **19** |
 | Active public repositories | **19** |
 | Public stars | **4** (checked via GitHub on 2026-10-09) |
-| Private repositories | **64** (checked via GitHub on 2026-10-09; automatic refresh pending PROFILE_TOKEN) |
+| Private repositories | **64** (checked via GitHub on 2026-10-09; refreshed by daily profile maintenance) |
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
 
-> Private repository names, descriptions, URLs, client data, and implementation details are never published. Automatic refresh of the private count requires the read-only PROFILE_TOKEN Actions secret.
+ > Private repository names, descriptions, URLs, client data, and implementation details are never published. Daily profile maintenance refreshes the aggregate count.
 <!-- AUTO-GITHUB-END -->
 
 ---
