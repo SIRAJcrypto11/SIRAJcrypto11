@@ -65,11 +65,12 @@ function summarizeRepos(repos) {
     'erp', 'pos', 'client', 'store', 'supply', 'invoice', 'resto', 'quinn', 'marketplace', 'business'
   ]));
 
-  const recent = [...ownRepos]
+  const recentPublic = [...publicRepos]
     .sort((a, b) => new Date(b.pushed_at || b.updated_at || b.created_at) - new Date(a.pushed_at || a.updated_at || a.created_at))
     .slice(0, 6);
 
-  const agentSkills = ownRepos.find((repo) => repo.name === 'agent-skills');
+  const hasPrivateAgentSkills = privateRepos.some((repo) => repo.name === 'agent-skills');
+  const publicAgentSkills = publicRepos.find((repo) => repo.name === 'agent-skills');
 
   return {
     total: ownRepos.length,
@@ -80,31 +81,35 @@ function summarizeRepos(repos) {
     ai: aiRepos.length,
     business: businessRepos.length,
     clientSafe: clientSafeRepos.length,
-    recent,
-    agentSkills,
+    recentPublic,
+    hasPrivateAgentSkills,
+    publicAgentSkills,
     privateAware: Boolean(token),
   };
 }
 
-function repoLabel(repo) {
+function publicRepoLabel(repo) {
   const description = repo.description ? ` - ${repo.description}` : '';
-  if (repo.private) return `\`${repo.name}\` - private/client-safe project${description}`;
   return `[${repo.name}](${repo.html_url})${description}`;
 }
 
 function buildBlock(summary) {
   const now = new Date().toISOString().slice(0, 10);
   const privateNote = summary.privateAware
-    ? 'Includes private repositories visible to the configured profile updater token.'
-    : 'Public GitHub API mode. Add `PROFILE_TOKEN` to include private repository counts automatically.';
+    ? 'Includes private repository counts visible to the configured profile updater token. Private names and descriptions are intentionally redacted.'
+    : 'Public GitHub API mode. Add `PROFILE_TOKEN` only if private counts are needed; private names will still be redacted.';
 
-  const recentRows = summary.recent
-    .map((repo) => `| ${repoLabel(repo)} | ${repo.private ? 'Private' : 'Public'} | ${new Date(repo.pushed_at || repo.updated_at || repo.created_at).toISOString().slice(0, 10)} |`)
-    .join('\n');
+  const recentRows = summary.recentPublic.length > 0
+    ? summary.recentPublic
+        .map((repo) => `| ${publicRepoLabel(repo)} | Public | ${new Date(repo.pushed_at || repo.updated_at || repo.created_at).toISOString().slice(0, 10)} |`)
+        .join('\n')
+    : '| Public repositories | Public | No public updates available |';
 
-  const agentStatus = summary.agentSkills
-    ? `${summary.agentSkills.private ? 'Private/internal' : 'Public'} repo active: \`${summary.agentSkills.name}\` - ${summary.agentSkills.description || 'AI agent skill system'}`
-    : 'Agent skill system is tracked manually until the updater can access the repository.';
+  const agentStatus = summary.publicAgentSkills
+    ? `Public repo active: [agent-skills](${summary.publicAgentSkills.html_url}) - ${summary.publicAgentSkills.description || 'AI agent skill system'}`
+    : summary.hasPrivateAgentSkills
+      ? 'Private/internal AI agent skills system is active. Details are summarized publicly without exposing the private repository.'
+      : 'AI agent skill system is tracked in the profile summary.';
 
   return `<!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
@@ -134,7 +139,7 @@ _Last refreshed: **${now}** by the profile updater workflow._
 
 ${agentStatus}
 
-### Recently Updated Repositories
+### Recently Updated Public Repositories
 
 | Repository | Visibility | Last update |
 |:---|:---:|:---:|
