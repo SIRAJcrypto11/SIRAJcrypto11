@@ -76,6 +76,46 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 
 ---
 
+<!-- AUTO-GITHUB-START -->
+## 📌 Live GitHub Snapshot
+
+_Last refreshed: **2026-10-09** by the profile updater setup._
+
+| Signal | Current value |
+|:---|:---:|
+| Total repositories tracked | **83** |
+| Active repositories | **83** |
+| Public repositories | **19** |
+| Private/client-safe repositories | **64** |
+| AI / agent / automation repos | **15+** |
+| ERP / commerce / business-system repos | **25+** |
+| Profile updater | **GitHub Actions + README auto block** |
+| Agent skill system | **Active: `agent-skills` + `siraj-product-app`** |
+
+> Private/client work is counted and summarized safely. Names, repositories, customer data, credentials, and business-sensitive implementation details are not exposed.
+
+### Current Engineering Direction
+
+- Building and refining **AI agent skills** for app generation, product architecture, UI/UX, ERP/POS, dashboards, role access, payments, and anti-generic output.
+- Developing practical product systems around **SNISHOP**, ERP, commerce, AI automation, workflow tools, and private client operations.
+- Keeping profile information professional, current, and client-safe while still showing real engineering scope.
+
+### Agent Skill System
+
+Private/internal repo active: `agent-skills` - engineering skills for AI coding agents. The current flagship skill is `siraj-product-app`, designed to turn Siraj's app prompts into complete, professional product builds instead of generic AI output.
+
+### Recently Visible Repository Directions
+
+| Direction | Examples |
+|:---|:---|
+| **AI agents & automation** | `agent-skills`, `snishop-agent-platform`, `agent-office`, `OtomaAI`, `Agentik` |
+| **Business systems** | `SNISHOP-ERP`, `snishop-erp-system`, `marketplace`, `restoapp`, `quinnsambal` |
+| **Commerce & brands** | `snishop.com`, `jamu-kito-internasional`, `quinnofspicy`, `DW-STORE` |
+| **Utilities & SaaS ideas** | `Converthub`, `formatflow`, `autoinvoice.id`, `Copilot-UMKM` |
+<!-- AUTO-GITHUB-END -->
+
+---
+
 <!-- WORK PORTFOLIO -->
 ## 🧩 Selected Work, Public & Private
 
@@ -250,7 +290,7 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 | 🏢 Business/ERP Systems | **Public + private/client-safe work** |
 | 🌐 Live Products | **Multiple public products** |
 | 🔒 Private Client Projects | **Summarized safely by domain and scope** |
-| 🤖 AI/Automation Products | **OtomaAI, Agentik and workflow tooling** |
+| 🤖 AI/Automation Products | **OtomaAI, Agentik, agent-skills and workflow tooling** |
 | 🛠️ Main Strength | **Full-stack product delivery from idea to operations** |
 | 🤝 Collaboration Areas | **AI agents, ERP/POS, SaaS, automation, dashboards** |
 
