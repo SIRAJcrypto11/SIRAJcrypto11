@@ -58,7 +58,7 @@ _Last refreshed: **2026-10-09**. Counts checked via GitHub; daily profile mainte
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
 
- > Private repository names, descriptions, URLs, client data, and implementation details are never published. Daily profile maintenance refreshes the aggregate count.
+> Private repository names, descriptions, URLs, client data, and implementation details are never published. Daily profile maintenance refreshes the aggregate count.
 <!-- AUTO-GITHUB-END -->
 
 ---
