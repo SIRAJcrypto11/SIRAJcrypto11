@@ -15,7 +15,7 @@
 ---
 
 <!-- ABOUT ME -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> About Me
+## About Me
 
 ```typescript
 const siraj: ProductEngineer = {
@@ -258,8 +258,4 @@ The live snapshot above is generated daily from GitHub's public repository API. 
 ---
 
 <!-- FOOTER -->
-<div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
-
-</div>
