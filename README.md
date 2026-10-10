@@ -46,19 +46,19 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last refreshed: **2026-10-09**. Counts checked via GitHub; daily profile maintenance refreshes the snapshot._
+_Last checked: **2026-10-10**. Repository counts and public stars were checked via GitHub; contributions were checked on the public profile calendar._
 
 | Signal | Current value |
 |:---|:---:|
-| Total owned repositories | **83** (checked via GitHub on 2026-10-09) |
-| Public repositories | **19** |
-| Active public repositories | **19** |
-| Public stars | **4** (checked via GitHub on 2026-10-09) |
-| Private repositories | **64** (checked via GitHub on 2026-10-09; refreshed by daily profile maintenance) |
+| Total owned repositories | **84** (checked via GitHub on 2026-10-10) |
+| Public repositories | **20** |
+| Active public repositories | **20** |
+| Public stars | **4** (across public repositories; checked via GitHub on 2026-10-10) |
+| Private repositories | **64** (checked via GitHub on 2026-10-10) |
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
 
-> Private repository names, descriptions, URLs, client data, and implementation details are never published. Daily profile maintenance refreshes the aggregate count.
+> Private repository names, descriptions, URLs, client data, and implementation details are never published; only the aggregate count is shown.
 <!-- AUTO-GITHUB-END -->
 
 ---
