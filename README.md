@@ -191,7 +191,7 @@ GitHub's native contribution calendar is available on the [profile activity page
 
 </div>
 
-The stats card is hosted in this repository instead of relying on third-party card servers. Daily profile maintenance refreshes its values.
+The stats card is hosted in this repository instead of relying on third-party card servers. Its values match the checked snapshot above.
 
 ---
 
