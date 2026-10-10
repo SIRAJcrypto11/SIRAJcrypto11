@@ -22,7 +22,7 @@
 
 I started SNISHOP in Bengkulu in 2018, while I was still in high school. I began as a digital reseller; working inside that business showed me the operational problems worth solving. Over time, I built products around those needs, from commerce and payments to ERP and POS for small businesses.
 
-I work across the product lifecycle: understanding the business, shaping the system, building and debugging it, then supporting it in production. AI tools are part of how I work faster, but I stay responsible for the architecture, trade-offs, and what ships. My work spans full-stack product engineering, AI-assisted SaaS, business automation, and software for Indonesian businesses. In 2023, Universitas Bengkulu selected our SNISHOP team for [KMI Expo XIV](https://www.unib.ac.id/unib-kirim-2-tim-di-ajang-kmi-expo-xiv-di-bali/), Indonesia's national student entrepreneurship expo.
+I work across the product lifecycle: understanding the business, shaping the system, building and debugging it, then supporting it in production. AI tools are part of how I work faster, but I stay responsible for the architecture, trade-offs, and what ships. My work spans full-stack product engineering, AI-assisted SaaS, business automation, and software for Indonesian businesses. In June 2026, [Universitas Bengkulu recognized me with its *Wisudawan Aktivis Berprestasi dan Berdampak* distinction](https://www.unib.ac.id/unib-wisuda-730-lulusan-rektor-jadilah-alumni-yang-berdampak-positif-bagi-masyarakat/), citing SNISHOP.ID’s digital ecosystem and its role in helping digitize around 1,200 MSMEs in Bengkulu City.
 
 ---
 
