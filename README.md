@@ -46,15 +46,16 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last checked: **2026-10-10**. Repository counts and public stars were checked via GitHub; contributions were checked on the public profile calendar._
+_Last checked: **2026-10-14**. Repository counts and public stars were checked via GitHub; contributions were checked on the public profile calendar._
 
 | Signal | Current value |
 |:---|:---:|
-| Total owned repositories | **84** (checked via GitHub on 2026-10-10) |
+| Total owned repositories | **84** (checked via GitHub on 2026-10-14) |
 | Public repositories | **20** |
 | Active public repositories | **20** |
-| Public stars | **4** (across public repositories; checked via GitHub on 2026-10-10) |
-| Private repositories | **64** (checked via GitHub on 2026-10-10) |
+| Public stars | **4** (across public repositories; checked via GitHub on 2026-10-14) |
+| Private repositories | **64** (checked via GitHub on 2026-10-14) |
+| Contributions in the last year | **5,009** (public profile calendar, checked 2026-10-14) |
 | AI / agent / automation repositories | **2** |
 | ERP / commerce / business-system repositories | **2** |
 
