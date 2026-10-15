@@ -228,19 +228,5 @@ The stats card is hosted in this repository instead of relying on third-party ca
 
 ---
 
-<!-- QUOTE -->
-<div align="center">
-
-### 💡 Philosophy
-
-> *"Technology is not just code — it's the bridge between problems and solutions.  
-> I build that bridge, one commit at a time."*
->
-> — **Siraj Nur Ihrom**, Founder of Snishop
-
-</div>
-
----
-
 <!-- FOOTER -->
 
