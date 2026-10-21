@@ -29,7 +29,7 @@ I work across the product lifecycle: understanding the business, shaping the sys
 <!-- COLLABORATION SIGNAL -->
 ## 🤝 Engineering & Collaboration
 
-I build practical business software: ERP systems, commerce platforms, AI-agent workflows, dashboards, and automation tools that help teams operate faster. Some of my work is public, and some client/internal systems stay private by design. I summarize private work by domain and architecture so the value is visible without exposing client data.
+I build practical business software: ERP systems, commerce platforms, AI-agent workflows, dashboards, and automation tools that help teams operate faster.
 
 | Area | What I bring |
 |:---|:---|
@@ -46,18 +46,16 @@ I build practical business software: ERP systems, commerce platforms, AI-agent w
 <!-- AUTO-GITHUB-START -->
 ## 📌 Live GitHub Snapshot
 
-_Last checked: **2026-10-14**. Repository counts and public stars were checked via GitHub; contributions were checked on the public profile calendar._
+_Repository counts and public repository stars checked on GitHub; contributions checked on the public profile calendar, all on **2026-10-21**._
 
 | Signal | Current value |
 |:---|:---:|
-| Total owned repositories | **84** (checked via GitHub on 2026-10-14) |
+| Total owned repositories | **87** (checked via GitHub on 2026-10-21) |
 | Public repositories | **20** |
 | Active public repositories | **20** |
-| Public stars | **4** (across public repositories; checked via GitHub on 2026-10-14) |
-| Private repositories | **64** (checked via GitHub on 2026-10-14) |
-| Contributions in the last year | **5,009** (public profile calendar, checked 2026-10-14) |
-| AI / agent / automation repositories | **2** |
-| ERP / commerce / business-system repositories | **2** |
+| Public stars | **4** (across public repositories; checked on GitHub on 2026-10-21) |
+| Private repositories | **67** (checked via GitHub on 2026-10-21) |
+| Contributions in the last year | **5,048** (public profile calendar, checked 2026-10-21) |
 
 > Private repository names, descriptions, URLs, client data, and implementation details are never published; only the aggregate count is shown.
 <!-- AUTO-GITHUB-END -->
@@ -65,18 +63,13 @@ _Last checked: **2026-10-14**. Repository counts and public stars were checked v
 ---
 
 <!-- WORK PORTFOLIO -->
-## 🧩 Selected Work, Public & Private
+## 🧩 Selected Public Work
 
 | Type | Scope | What I handled | Visibility |
 |:---|:---|:---|:---:|
 | **SNISHOP ERP** | ERP modules, users, operations, inventory, finance, HR, POS | Product architecture, full-stack implementation, dashboards, business workflows | Public product |
 | **SNISHOP Commerce** | E-commerce, reseller, wallet, payments, orders, customer/admin dashboards | Commerce flows, role-aware dashboards, payment and wallet thinking | Public product |
-| **Client Business Systems** | ERP/POS/inventory/invoice workflows for real operational needs | Private dashboards, CRUD flows, reporting, role access, deployment support | Private/client-safe |
-| **Client Automation Tools** | Internal dashboards, workflow automation, document/content tools | Requirements mapping, UI, backend logic, integrations, admin workflows | Private/client-safe |
-| **AI Agent Products** | OtomaAI, Agentik, workflow builders, task automation | Agent flows, prompt/system design, provider integration, run states | Building/public-private |
-| **Education & Utility Apps** | Language learning, plagiarism checking, file conversion, business utilities | Full-stack app delivery, product iteration, landing pages, admin features | Mixed |
 
-> Private/client work is intentionally described without confidential names, data, repositories, or business-sensitive implementation details.
 
 ---
 
@@ -115,7 +108,6 @@ GitHub's native contribution calendar is available on the [profile activity page
 | **OtomaAI** | AI agent automation and orchestration framework | TypeScript · LLM APIs · Agents | 🔧 Building | Soon |
 | **Agentik** | Drag-and-drop AI workflow builder | TypeScript · Next.js · AI | 🔧 Building | Soon |
 | **Converthub** | Multi-format online file conversion tools | TypeScript · Next.js | 🔧 Building | Soon |
-| **Private Client Systems** | ERP, POS, dashboard, automation and internal tools for client operations | Full-stack · Database · Auth · Admin | 🔒 Private | Client-safe summary |
 
 </div>
 
@@ -203,10 +195,8 @@ The stats card is hosted in this repository instead of relying on third-party ca
 
 | Metric | Value |
 |:---|:---:|
-| 🏢 Business/ERP Systems | **Public + private/client-safe work** |
 | 🌐 Live Products | **Multiple public products** |
-| 🔒 Private Client Projects | **Summarized safely by domain and scope** |
-| 🤖 AI/Automation Products | **OtomaAI, Agentik, private agent skills and workflow tooling** |
+| 🤖 AI/Automation Products | **OtomaAI and Agentik** |
 | 🛠️ Main Strength | **Full-stack product delivery from idea to operations** |
 | 🤝 Collaboration Areas | **AI agents, ERP/POS, SaaS, automation, dashboards** |
 
